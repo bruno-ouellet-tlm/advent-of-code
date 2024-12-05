@@ -1,0 +1,54 @@
+📦 files 🏠
+
+🏁 🍇
+    💭Sorting function
+    🍇a🔢b🔢➡️ 🔢
+        ↩️ a ➖ b
+    🍉 ➡️ sort
+
+    💭Function to count number of occurrences of value in an array
+    🍇array🍨🐚🔢🍆value🔢➡️ 🔢
+        0 ➡️ 🖍🆕c
+        ↪️ 🐦array value❓ 🍇
+            🔂 number array 🍇
+                ↪️ number 🙌 value 🍇
+                    c ⬅️➕ 1
+                🍉
+            🍉
+        🍉
+
+        ↩️ c
+    🍉 ➡️ count
+
+    💭Initialize lists
+    🆕🍨🐚🔢🍆❗ ➡️ 🖍️🆕list1
+    🆕🍨🐚🔢🍆❗ ➡️ 🖍️🆕list2
+
+    💭Read input file
+    🍺📇🐇📄🔤input.txt🔤❗➡️ file
+    🍺🔡 file ❗➡️ file_contents
+    🔫 file_contents 🔤❌n🔤❗️ ➡️ lines
+    🔂 line lines 🍇
+        🔫 line 🔤   🔤 ❗️ ➡️ numbers
+        💭Convert number to int and append to list
+        🐻list1 🍺🔢🐽numbers 0❗10❗❗
+        🐻list2 🍺🔢🐽numbers 1❗10❗❗
+    🍉
+
+    💭Sort lists
+    🦁list1 sort❗️
+    🦁list2 sort❗
+
+    0 ➡️ 🖍🆕result
+    0 ➡️ 🖍🆕similarity
+
+    🔂 i 🆕⏩ 0 📏list1❓❗️ 🍇
+        🐽list1 i❗➡️ number1
+        🐽list2 i❗➡️ number2
+        result ⬅️➕ 🏧number1 ➖ number2❗️
+        similarity ⬅️➕ number1 ✖️ ⁉ count list2 number1❗️
+    🍉
+
+    😀🔡result❗️❗
+    😀🔡similarity❗❗
+🍉
